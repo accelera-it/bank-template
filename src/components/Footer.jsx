@@ -41,20 +41,21 @@ const Footer = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        Copyright Ⓒ 2022 HooBank. All Rights Reserved.
+        Copyright © 2022 HooBank. All Rights Reserved.
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((social, index) => (
-          <img
+          <a
             key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-            onClick={() => window.open(social.link)}
-          />
+            href={social.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={social.name}
+            className={`flex ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"}`}
+          >
+            <img src={social.icon} alt="" className="w-[21px] h-[21px] object-contain" />
+          </a>
         ))}
       </div>
     </div>
