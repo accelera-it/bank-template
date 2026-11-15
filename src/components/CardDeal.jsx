@@ -11,14 +11,14 @@ const CardDeal = () => (
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        aliquet eget mauris tortor. Aliquet ultrices ac, ametau.
       </p>
 
       <Button styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={card} alt="HooBank card scanning, spending chart and payment methods" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );

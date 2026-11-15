@@ -32,7 +32,7 @@ export const features = [
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We take proactive steps to make sure your information and transactions are secure.",
   },
   {
     id: "feature-3",
@@ -157,21 +157,25 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
+    name: "Instagram",
     icon: instagram,
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
+    name: "Facebook",
     icon: facebook,
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
+    name: "Twitter",
     icon: twitter,
     link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
+    name: "LinkedIn",
     icon: linkedin,
     link: "https://www.linkedin.com/",
   },
@@ -180,18 +184,22 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
+    name: "Airbnb",
     logo: airbnb,
   },
   {
     id: "client-2",
+    name: "Binance",
     logo: binance,
   },
   {
     id: "client-3",
+    name: "Coinbase",
     logo: coinbase,
   },
   {
     id: "client-4",
+    name: "Dropbox",
     logo: dropbox,
   },
 ];
